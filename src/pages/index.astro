@@ -1,19 +1,19 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
+import SocialLinks from '../components/SocialLinks.astro';
 ---
 <DefaultLayout>
-<div class="w-screen flex justify-center h-dvh items-center">
-<div class="flex flex-col items-start gap-4 p-12">
-<h1 class="text-4xl font-bold font-mono">
-&lt;Sandesh Gorde/&gt;
-</h1>
-</div>
-</div>
+	<div class="w-screen flex justify-center h-dvh items-center">
+		<div class="flex flex-col items-start gap-4 p-12">
+			<h1 class="text-4xl font-bold font-mono">
+				&lt; Sandesh Gorde /&gt;
+			</h1>
+			<SocialLinks />
+		</div>
+	</div>
 </DefaultLayout>
-
 <style>
-
-    h1 {
-        font-family: monaco, Consolas, "Lucida Console", monospace;
-    }
+	h1 {
+		font-family: monaco, Consolas, "Lucida Console", monospace;
+	}
 </style>

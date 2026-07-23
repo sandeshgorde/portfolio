@@ -1,0 +1,19 @@
+---
+const links = [
+    { label: "Github", href: "https://github.com/sandeshgorde" },
+    { label: "X", href: "https://x.com/sandeshRgorde" },
+];
+---
+
+<div class="flex gap-4">
+	{links.map((link) => (
+		<a
+			href={link.href}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="text-sm underline hover:text-blue-500"
+		>
+			{link.label}
+		</a>
+	))}
+</div>
